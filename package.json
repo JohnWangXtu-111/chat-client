@@ -1,0 +1,23 @@
+{
+  "name": "chat-app-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/dertaya/chat-app-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-helper-json": "^1.0.13",
+    "@hyoga/uni-socket.io": "^3.0.4",
+    "luch-request": "^3.0.8",
+    "moment": "^2.29.4",
+    "uview-ui": "^2.0.31"
+  }
+}

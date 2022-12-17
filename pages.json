@@ -1,0 +1,124 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/RequestFriend/RequestFriend",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+
+		, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/signup/signup",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+
+		}, {
+			"path": "pages/UserDetail/UserDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/Group/Group",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/My/My",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/Search/Search",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/Chat/Chat"
+		}, {
+			"path": "pages/UserProfile/UserProfile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/UserModify/UserModify",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/FriendReqList/FriendReqList",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/create-group/index",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/group-detail/index",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"rpxCalcIncludeWidth": 375
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#8E8E93",
+		"selectedColor": "#000000",
+		"backgroundColor": "#FAFAFA",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "聊天",
+				"iconPath": "static/images/chat.png"
+			},
+			{
+				"pagePath": "pages/Group/Group",
+				"text": "John",
+				"iconPath": "static/images/chat.png"
+			},
+			{
+				"pagePath": "pages/My/My",
+				"text": "我的",
+				"iconPath": "static/images/weilai.png"
+			}
+		]
+	}
+}

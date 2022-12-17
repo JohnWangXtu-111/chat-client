@@ -1,0 +1,32 @@
+@import url("@/static/font/iconfont.css");
+
+:root {
+  --main-color-yellow: #ffe431;
+  --main-color-black: #000;
+
+  --regular-font: "PingFangSC-Regular";
+  --medium-font: "PingFangSC-Medium";
+  --next-font: "AvenirNext-Medium";
+}
+
+body {
+  color: var(--main-color-black);
+}
+
+
+/*每个页面公共css */
+uni-page-head {
+  display: none;
+}
+@font-face {
+  font-family: "PingFangSC-Medium";
+  src: url("@/static/font/pingfang sc medium.otf");
+}
+@font-face {
+  font-family: "PingFangSC-Regular";
+  src: url("@/static/font/PingFang Regular.otf");
+}
+@font-face {
+  font-family: "AvenirNext-Medium";
+  src: url("@/static/font/AvenirNextCyr-Medium.ttf");
+}
